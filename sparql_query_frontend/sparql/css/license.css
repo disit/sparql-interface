@@ -1,0 +1,199 @@
+.table_exterior_left_element {
+	padding:0;
+	border-left:2px solid #676767;
+}
+
+.table_exterior_right_element {
+	padding:0;
+	border-right:2px solid #676767;
+}
+
+.table_interior_element {
+	padding:0;
+
+}
+
+.table_header_exterior_left_element {
+    padding:0;
+	border-left:2px solid #676767;
+    border-bottom: 2px solid #676767;
+}
+
+.table_header_exterior_right_element {
+    padding:0;
+	border-right:2px solid #676767;
+    border-bottom: 2px solid #676767;
+}
+
+.table_header_interior_element {
+	padding:0;
+
+}
+
+.license_table_header_element {
+	padding:0;
+	border: 2px solid #676767;
+	text-align:center;
+}
+
+.license_table_header_element_exterior {
+    padding:0;
+	border: 2px solid #676767;
+}
+
+th.table_header_interior_element {
+  /* Something you can count on */
+  padding:0;
+  height: 140px;
+  white-space: nowrap;
+  border-bottom: 2px solid #676767;
+}
+
+.prova {
+    width: 23px;
+    padding: 0 !important;
+    transform: translate(0px, -49px)
+               rotate(90deg);
+}
+
+th.table_header_interior_element > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+}
+
+
+.invalid_license {
+    border: 2px red;
+    background: #FF9696;
+    border-bottom: 2px solid #676767;
+    border-top: 1px solid red;
+}
+
+.valid_license {
+    border: 2px green;
+    background: #9FFF96;
+    border-bottom: 2px solid #676767;
+    border-top: 1px solid green;
+}
+
+
+td {
+	padding:0px;
+}
+
+tr {
+}
+
+
+table {
+	border:1px gray;
+}
+
+table p  {
+   margin:0 !important;
+   padding:0 !important;
+
+}
+
+div.query {
+    font-family: monospace;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+h3.query_title {
+    display: inline-block;
+}
+
+#license-results-area table {
+    border: 1px solid #bbb;
+    margin: 5px;
+    border-collapse: collapse;
+}
+
+#license-results-area table td, th {
+    padding: 4px;
+}
+
+div.categories_result,
+div.final_result,
+div.vars,
+div.result {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main_result h1,
+.main_result h2,
+.main_result h3{
+    text-decoration: underline;
+}
+
+div.sub_query_main_div {
+    /*border-bottom: 2px solid #666;*/
+}
+
+.main_result {
+    margin-top: 4px;
+}
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+/*    text-decoration: underline;*/
+    text-transform: uppercase;
+}
+
+ul.tabs li.current{
+/*
+    background: #ededed;
+    color: #222;
+*/
+    background: #666;
+    color: #ededed;
+}
+
+.tab-content{
+    display: none;
+/*    background: #ededed;*/
+    padding: 15px;
+    border-top: 2px solid #666;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+.duty {
+    background-color: aliceblue !important;
+}
+
+.permission {
+    background-color: lightgoldenrodyellow !important;
+}
+
+li.permission, li.duty{
+    padding: 4px;
+    width: 171px
+}
+
+
+div#license-results-area {
+
+   background-color:white !important;
+}
